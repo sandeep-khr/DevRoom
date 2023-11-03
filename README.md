@@ -1,17 +1,16 @@
-# StudyBuddy
-</div>
+# DevRoom
 
 ### Cloning the repository
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
+https://github.com/sandeep-khr/DevRoom.git
 
 ```
 
 --> Move into the directory where we have the project files : 
 ```bash
-cd StudyBud
+cd DevRoom
 
 ```
 
@@ -37,8 +36,6 @@ pip install -r requirements.txt
 
 ```
 
-#
-
 ### Running the App
 
 --> To run the App, we use :
@@ -48,9 +45,6 @@ python manage.py runserver
 ```
 
 > ⚠ Then, the development server will be started at http://127.0.0.1:8000/![Screenshot 2023-11-01 224420](https://github.com/sandeep-khr/DevRoom/assets/70543525/1dc79b3c-b070-4fee-8927-3ae32b704e40)
-
-
-#
 
 ### Screenshots
 ![Screenshot 2023-11-01 224600](https://github.com/sandeep-khr/DevRoom/assets/70543525/4f77a4fa-8642-4e7b-9a91-11d52f650b89)
