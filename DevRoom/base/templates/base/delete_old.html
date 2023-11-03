@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+{% block content %}
+<form method="POST" action="">
+    {% csrf_token %}
+    <p>Are you sure you want to delete "{{obj}}"?</p>
+
+    <a href="{{request.META.HTTP_REFERER}}">Go Back</a>
+    <input type="submit" value="Confirm"/>
+</form>
+{% endblock content %}
+
+{% comment %} Now, the "input type="submit" value="Confirm"" in your delete.html template is part of an HTML form. 
+This form has a method="POST" attribute, which means that when you click the "Confirm" button, 
+it sends a POST request to the same URL where the delete confirmation page is located (i.e., the URL mapped to the deleteRoom view). {% endcomment %}
